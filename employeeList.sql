@@ -24,7 +24,7 @@ manager_id INT
 
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES("Sean", "Armstrong", 2, 1), ("Tad", "Darmstrong", 3, null), ("Clark", "Flarmstrong", 5, null);
 INSERT INTO department(dept_name) VALUES("Sales"), ("Tech"), ("Legal");
-INSERT INTO company_role(title, salary, department_id) VALUES("Sales Staff", 34000, 1), ("Sales Lead", 50000, 1), ("Tech Staff", 45000, 2), ("Tech Lead", 65000, 2), ("Legal Staff", 50000, 3), ("Legal Lead", 60000, 3);
+INSERT INTO company_role(title, salary, department_id) VALUES("Sales Lead", 50000, 1), ("Sales Staff", 34000, 1), ("Tech Lead", 65000, 2), ("Tech Staff", 45000, 2), ("Legal Lead", 60000, 3), ("Legal Staff", 50000, 3);
 
 SELECT * FROM department;
 SELECT * FROM employee;
