@@ -18,7 +18,7 @@ install npm i mysql, inquirer, asciiart-logo, console.table
 MIT
 
 ## Screenshot
-![screenshot](image/Screenshot.png)
+![screenshot](images/Screenshot.png)
 
 ## Links
 https://github.com/sethklusmire/Employee-Tracker
